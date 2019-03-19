@@ -2,11 +2,11 @@ export const data = [
 	{
 		name: 'FOUNDIT',
 		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'Heroku', 'Postgres', 'CircleCI'],
-		description: 'This is my first full stack application where I used React on the front end and Nodejs, Postgres and Heroku on the back end. FoundIT is a website where users can visit to post lost or found items. Thr purpose of FoundIt is to create an online lost & found where users can come to find any lost possessions. While building this project I also gained knowledge on how to automate deployment using CircleCI.',
+		description: 'This is my first full stack application where I used React on the front end and Nodejs, Postgres and Heroku on the back end. FoundIT is a website where users can visit to post lost or found items. The purpose of FoundIt is to create an online lost & found where users can come to find any lost possessions. While building this project I also gained knowledge on how to automate deployment using CircleCI.',
 		img: 'https://i.imgur.com/MQQmUo8.jpg',
 		links: {
 			source: 'https://github.com/projectunic0rn/foundit-ui',
-			demo: 'https://foundit-ui-staging.herokuapp.com/'
+			demo: 'https://foundit.herokuapp.com/'
 		}
 	},
 	{
