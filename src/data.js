@@ -1,5 +1,15 @@
 export const data = [
 	{
+		name: 'FOUNDIT',
+		skills: ['HTML', 'SCSS', 'JavaScript', 'React'],
+		description: 'This is my first full stack application where I used React on the front end and Nodejs, Postgres and Heroku on the back end. FoundIT is a website where users can visit to post lost or found items. Thr purpose of FoundIt is to create an online lost & found where users can come to find any lost possessions. While building this project I also gained knowledge on how to automate deployment using CircleCI.',
+		img: 'https://i.imgur.com/MQQmUo8.jpg',
+		links: {
+			source: 'https://github.com/projectunic0rn/foundit-ui',
+			demo: 'https://foundit-ui-staging.herokuapp.com/'
+		}
+	},
+	{
 		name: 'MENTRSHIP',
 		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'TypeScript'],
 		description: 'This was a collaboration project that included myself and 4 other developers. Mentrship is a platform where people can sign up as mentors and provide mentorship to those wanting to learn a new skill. Working on a group project allowed me to learn more about Git and React and it also gave me an opportunity to learn TypeScript.',

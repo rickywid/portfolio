@@ -44,7 +44,7 @@ class App extends Component {
           </p>
           <div className="button-group">
             <a href={project.links.source} className="source" rel="noopener noreferrer" target="_blank">View Source</a>
-            <a href={project.links.demo}  className="demo" rel="noopener noreferrer" target="_blank">Demo</a>
+            <a href={project.links.demo}  className="demo" rel="noopener noreferrer" target="_blank">Visit Site</a>
           </div>
         </div>      
       </div> 
