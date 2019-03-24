@@ -10,16 +10,6 @@ export const data = [
 		}
 	},
 	{
-		name: 'MENTRSHIP',
-		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'TypeScript'],
-		description: 'This was a collaboration project that included myself and 4 other developers. Mentrship is a platform where people can sign up as mentors and provide mentorship to those wanting to learn a new skill. Working on a group project allowed me to learn more about Git and React and it also gave me an opportunity to learn TypeScript.',
-		img: 'https://i.imgur.com/CbjCncf.jpg',
-		links: {
-			source: 'https://github.com/projectunic0rn/mentorship-ui',
-			demo: 'http://mentrship.com'
-		}
-	},
-	{
 		name: 'WEATHER',
 		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'OpenWeatherMap API'],
 		description: 'I created a weather application where users can search for a location and receive the weather foreacast. My objective for this project was to improve my UI skills by being able to implement a clean simple layout to display information. For this project I tried to use various methods for displaying data information including icons, charts and a map.',
