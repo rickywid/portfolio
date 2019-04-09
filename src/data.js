@@ -23,9 +23,9 @@ export const data = [
 		name: 'REDDIT',
 		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'Reddit API'],
 		description: 'I created a web app where users can see all of their favourite subreddits on a single page. I wanted to save myself a little bit of time by not having to navigate between individual subreddit pages. I added features where users can add, edit, remove subreddits from their saved list. Users can identify if a post is a video or image type and view related comments linked directly to Reddit\'s website.',
-		img: 'https://i.imgur.com/aeGln2v.jpg',
+		img: 'https://i.imgur.com/6oDTwUr.jpg',
 		links: {
-			source: 'https://i.imgur.com/6oDTwUr.jpg',
+			source: 'https://github.com/rickywid/reddit-v2',
 			demo: 'https://rickywid.github.io/reddit-v2/'
 		}
 	},
