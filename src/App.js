@@ -76,10 +76,16 @@ class App extends Component {
         <section className="project animated bounceInUp">   
           {this.state.selectedProject === data.length + 1 ? 
             <div className="bio">
-            <p>about me...</p>
-            <p>I am a <span class="highlight">Web Developer</span> with about <span class="highlight">2-3 years</span> of professional experience primarily focusing on <span class="highlight">Front End Development</span>. My core skills include <span class="highlight">HTML</span>, <span class="highlight">CSS</span> and <span class="highlight">JavaScript</span> but I have also used a wide variety of languages, frameworks, libraries and tools.</p>
-            <p>When I’m working on personal projects I like to experiment with different libraries and frameworks. I have experience using <span class="highlight">ReactJS</span> professionally and also in my personal projects. Most recently I was able to learn <span class="highlight">TypeScript</span>. As a Front End Developer I also try to learn more about the back end so in my latest personal project <a href="https://foundit.herokuapp.com/" className="highlight" rel="noopener noreferrer" target="_blank">FoundIT</a>, I built a full stack application that consisted of <span class="highlight">NodeJS</span>, <span class="highlight">ExpressJS</span>, <span class="highlight">Postgres</span> database and setup continuous integration/deployment using <span class="highlight">CircleCI</span>.</p>
-            <p>Apart from web development, I also enjoy learning new programming languages. I’ve started learning <span class="highlight">Python</span> to perform web scraping and creating automated scripts.</p>
+            <p>I am a <span className="highlight">Web Developer</span> with about <span className="highlight">2-3 years</span> of professional experience focusing on <span className="highlight">Front End Development</span>. My main responsibilities as a Front End Developer is implementing mockup designs, create responsive layouts and building reusable components using JavaScript frameworks such as React.</p>
+            <ul className="bio-skills">
+              <li><span className="highlight">Languages</span>: HTML, CSS, JavaScript/ES6, Python</li>
+              <li><span className="highlight">Frameworks</span>: React, Angular, Vue, Node/Express, Jquery, MVC</li>
+              <li><span className="highlight">Databases</span>: Postgres, MongoDB</li>
+              <li><span className="highlight">Deployment</span>: CircleCI, Heroku</li>
+              <li><span className="highlight">Source Control</span>: Github</li>
+              <li><span className="highlight">Test Automation</span>: Selenium</li>
+              <li><span className="highlight">Operating Systems</span>: Linux, Windows</li>
+            </ul>
             <p>If you would like to get in touch, you can contact me via email at <span className="highlight">rickywid@hotmail.com</span></p>
             </div>
             :

@@ -2,10 +2,7 @@
  
  body {
 	text-align: center;
-	background: linear-gradient(151deg, #fce77d 50%, #fff 50%);
 	margin: 0;
-	// padding-bottom: 106px;
-	// height: 100vh;
 }
 
 h1,h2,h3,h4,h5,h6,p, a {
@@ -16,6 +13,7 @@ h1,h2,h3,h4,h5,h6,p, a {
 }
 
 ul {
+	font-family: 'Quicksand', sans-serif;
   padding: 0;
 }
 
@@ -28,6 +26,10 @@ ul li {
 
 p {
 	color: #2b3252;	
+}
+
+a:hover {
+	color: red;
 }
 
 a, p {
@@ -47,7 +49,6 @@ a, p {
 .container {  
   max-width: 900px;
   margin: 0 auto;
-  // height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,7 +56,7 @@ a, p {
 }
 
 .profile {
-	border-bottom: 1px dashed grey;
+	// border-bottom: 1px dashed grey;
 	padding-bottom: 1rem;
 
 	ul {
@@ -69,15 +70,14 @@ a, p {
 	ul {
 		li {
 			cursor: pointer;
-			padding: 3px 10px;
+			padding: 3px 0;
 
 			&.active {
-				border-radius: 10px;
-				background: #f96167;
-				box-shadow: -5px 7px 1px -3px rgba(0, 0, 0, 0.46);
+			// 	border-radius: 10px;
+			// 	background: #f96167;
 				
 				p {
-					color: white;
+					color: #f96167;
 				}
 			}
 		}
@@ -89,12 +89,11 @@ a, p {
 			color: #f96167;			
 		}
 
-		&.active {
-			border-radius: 10px;
-			background: #f96167;
-			box-shadow: -5px 7px 1px -3px rgba(0, 0, 0, 0.46);		
-			color: white;
-		}
+	// 	&.active {
+	// 		border-radius: 10px;
+	// 		background: #f96167;		
+	// 		color: white;
+	// 	}
 	}
 }
 
@@ -119,13 +118,12 @@ a, p {
 		width: auto;
 		height: 250px;
 		border-radius: 10px;
-		box-shadow: -7px 7px 1px -3px rgba(0, 0, 0, 0.45);
 		margin-bottom: 1rem;
 	}
 
-	ul li:last-child span {
-		display: none;
-	}
+	// ul li:last-child span {
+	// 	display: none;
+	// }
 
 	 .skill {
 		border-radius: 22px;
@@ -157,13 +155,13 @@ a, p {
 		text-align: left;
 		text-align: left;
 		background: white;
-		box-shadow: -10px 10px 1px -3px rgba(0, 0, 0, 0.46);
 		padding: 37px 55px;
 		border-radius: 10px;
 
-		p:first-child {
-			color: #f96167;
-			margin-bottom: 1rem;
+		.bio-skills {
+			li {
+				display: block;
+			}
 		}
 
 		p {
@@ -191,7 +189,7 @@ a, p {
 		min-height: 389px;
 
 		.bio {
-			padding: 37px 48px;
+			padding: 37px 0;
 		}
 	}
 
@@ -206,6 +204,7 @@ a, p {
 	.project {
 		.project-name {
 			display: flex;
+			align-items: center;
 		}  
 
 		.project-detail {
@@ -213,7 +212,7 @@ a, p {
 			background: white;
 			padding: 30px;
 			border-radius: 10px;
-			box-shadow: -7px 7px 1px -3px rgba(0, 0, 0, 0.45);
+			
 		}
 	}
 
