@@ -76,7 +76,7 @@ class App extends Component {
         <section className="project animated bounceInUp">   
           {this.state.selectedProject === data.length + 1 ? 
             <div className="bio">
-            <p>I am a <span className="highlight">Web Developer</span> with about <span className="highlight">2-3 years</span> of professional experience focusing on <span className="highlight">Front End Development</span>. My main responsibilities as a Front End Developer is implementing mockup designs, create responsive layouts and building reusable components using JavaScript frameworks such as React.</p>
+            <p>I am a <span className="highlight">Web Developer</span> with about <span className="highlight">2-3 years</span> of professional experience focusing on <span className="highlight">Front End Development</span>. My main responsibilities as a Front End Developer involves translating mockup designs, creating responsive layouts and building single page applications using <span className="highlight">JavaScript</span> frameworks such as <span className="highlight">React</span>. As a developer I am continuously learning, building and experimenting with different tools and technologies.</p>
             <ul className="bio-skills">
               <li><span className="highlight">Languages</span>: HTML, CSS, JavaScript/ES6, Python</li>
               <li><span className="highlight">Frameworks</span>: React, Angular, Vue, Node/Express, Jquery, MVC</li>
