@@ -129,7 +129,7 @@ class App extends Component {
                 </ul>
                 <p>
                   If you would like to get in touch, you can contact me via email at
-                  <span className="highlight">rickywid@hotmail.com</span>
+                  <span className="highlight"> rickywid@hotmail.com</span>
                 </p>
               </div>
             )
