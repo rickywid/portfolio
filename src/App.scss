@@ -12,6 +12,11 @@ h1,h2,h3,h4,h5,h6,p, a {
   font-family: 'Quicksand', sans-serif;
 }
 
+button {
+	background: none;
+	border: none;
+}
+
 ul {
 	font-family: 'Quicksand', sans-serif;
   padding: 0;
@@ -24,7 +29,7 @@ ul li {
   padding: 0;
 }
 
-p {
+p, li {
 	color: #2b3252;	
 }
 
@@ -32,7 +37,8 @@ a:hover {
 	color: red;
 }
 
-a, p {
+a, p, button {
+	font-family: 'Quicksand', sans-serif;
 	font-size: 14px;
 	text-decoration: none;
 }
@@ -72,14 +78,14 @@ a, p {
 			cursor: pointer;
 			padding: 3px 0;
 
-			&.active {
-			// 	border-radius: 10px;
-			// 	background: #f96167;
-				
-				p {
+			button {
+				cursor: pointer;
+				padding: 0;
+				&.active {
 					color: #f96167;
 				}
 			}
+
 		}
 	}
 	
@@ -155,7 +161,7 @@ a, p {
 		text-align: left;
 		text-align: left;
 		background: white;
-		padding: 37px 55px;
+		padding: 37px 0px;
 		border-radius: 10px;
 
 		.bio-skills {
@@ -177,7 +183,7 @@ a, p {
 		text-align: initial;
 	}
 
-	a, p {
+	a, p, button {
 		font-size: 17px;
 	}
 	.container {
