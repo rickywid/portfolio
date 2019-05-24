@@ -117,7 +117,7 @@ a, p, button {
 
 	.project-desc {
 		line-height: 1.6;
-		padding-bottom: 1rem;
+		padding-bottom: 2rem;
 	}
 
 	img {
@@ -146,15 +146,22 @@ a, p, button {
 	}
 
 	.button-group a {
-		margin-right: 10px;
+		margin-right: 20px;
 	}
 
-	.button-group button {
-		border: none;
-		background: #0000001a;
-		color: #727272;
-		padding: 7px;
-		border-radius: 3px;
+	.button-group .demo {
+		padding: 5px 10px;
+		background: white;
+		border: 1px solid #f96167;
+		border-radius: 5px;
+		color: #f96167;
+		transition: .3s background;
+		transition: .3s color;
+
+		&:hover {
+			background: #f96167;
+			color: white;
+		}
 	}
 
 	.bio {
@@ -192,7 +199,7 @@ a, p, button {
 	}
 
 	.project {
-		min-height: 400px;
+		min-height: 430px;
 
 		.bio {
 			padding: 37px 0;

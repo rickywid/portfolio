@@ -13,7 +13,6 @@ class App extends Component {
   }
 
   selectProject = (index) => {
-    console.log(index)
     this.setState({
       selectedProject: index,
     });
@@ -112,7 +111,7 @@ class App extends Component {
                   </li>
                   <li>
                     <span className="highlight">Deployment: </span>
-                    CircleCI, Heroku
+                    CircleCI, Heroku, Docker
                   </li>
                   <li>
                     <span className="highlight">Source Control: </span>
