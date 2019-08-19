@@ -2,7 +2,7 @@ export const data = [
   {
     name: 'BOOKSTAX',
     skills: ['Styled-Components', 'React-Redux', 'Heroku', 'Postgres', 'CircleCI', 'PassportJS'],
-    description: 'This is a full stack application where I used React on the front end and Nodejs, Postgres and Heroku on the back end. BookStax allows readers to keep track of the their books by managing their list with a drag and drop UI similar. Users can view, comment and like other users profiles. Users can login through email or social login via Google or Facebook.',
+    description: 'This is a full stack application where I used React on the front end and Nodejs, Postgres and Heroku on the back end. BookStax allows readers to keep track of the their books by managing their list with a drag and drop UI. Users can view, comment and like other users profiles. Users can login through email or social login via Google or Facebook.',
     img: 'https://i.imgur.com/SXVryK7.png',
     links: {
       source: 'https://github.com/rickywid/bookstax',
