@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// import { Transition, animated } from 'react-spring'
 import { data, socialLink } from './data';
-
 
 class App extends Component {
   constructor(props) {
@@ -48,7 +46,7 @@ class App extends Component {
           </p>
           <div className="button-group">
             <a href={project.links.source} className="source" rel="noopener noreferrer" target="_blank">View Source</a>
-            <a href={project.links.demo} className="demo" rel="noopener noreferrer" target="_blank">Visit Site</a>
+            <a href={project.links.demo} className="demo" rel="noopener noreferrer" target="_blank">Website</a>
           </div>
         </div>
       </div>
@@ -86,8 +84,8 @@ class App extends Component {
                 <p>
                   I am a
                   <span className="highlight"> Web Developer </span>
-                  with about
-                  <span className="highlight"> 2-3 years </span>
+                  with
+                  <span className="highlight"> 3 years </span>
                   of professional experience focusing on
                   <span className="highlight"> Front End Development</span>
                   . My main responsibilities as a Front End Developer involves translating mockup designs, creating responsive layouts and building single page applications using
@@ -115,11 +113,11 @@ class App extends Component {
                   </li>
                   <li>
                     <span className="highlight">Source Control: </span>
-                    Github
+                    Git/Github
                   </li>
                   <li>
                     <span className="highlight">Test Automation: </span>
-                    Selenium
+                    Selenium, Jest, React-Testing-Library
                   </li>
                   <li>
                     <span className="highlight">Operating Systems: </span>

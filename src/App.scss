@@ -1,24 +1,44 @@
- @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
  
  body {
 	text-align: center;
 	margin: 0;
+	background: black;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6,p, a {
   padding: 0;
   margin: 0;
-  color: #f96167;
-  font-family: 'Quicksand', sans-serif;
+//   
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #f96167;
+}
+
+p {
+	color: white;
+}
+
+a {
+	color: #999;
+	transition: 0.5s color;
+
+	&:hover {
+		color: white;	
+	}
 }
 
 button {
 	background: none;
 	border: none;
+	outline: none;
+	color: white;
+	font-size: 16px;
 }
 
 ul {
-	font-family: 'Quicksand', sans-serif;
   padding: 0;
 }
 
@@ -29,23 +49,19 @@ ul li {
   padding: 0;
 }
 
-p, li {
-	color: #2b3252;	
-}
-
-a:hover {
-	color: red;
-}
-
 a, p, button {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 14px;
+	// font-size: 14px;
 	text-decoration: none;
 }
 
 .fa {
   color: #f96167;
   font-size: 16px;
+  transition: 0.5s color;
+
+  &:hover {
+	  color: #b1393d;
+  }
 }
 
 .highlight {
@@ -62,7 +78,6 @@ a, p, button {
 }
 
 .profile {
-	// border-bottom: 1px dashed grey;
 	padding-bottom: 1rem;
 
 	ul {
@@ -81,7 +96,12 @@ a, p, button {
 			button {
 				cursor: pointer;
 				padding: 0;
+				transition: 0.5s color;
 				&.active {
+					color: #f96167;
+				}
+
+				&:hover {
 					color: #f96167;
 				}
 			}
@@ -94,18 +114,11 @@ a, p, button {
 		p {
 			color: #f96167;			
 		}
-
-	// 	&.active {
-	// 		border-radius: 10px;
-	// 		background: #f96167;		
-	// 		color: white;
-	// 	}
 	}
 }
 
 .project {
 	min-height: 548px;
-	border-radius: 10px;
 
 	.project-name.hide {
 		display: none;
@@ -123,16 +136,10 @@ a, p, button {
 	img {
 		width: auto;
 		height: 250px;
-		border-radius: 10px;
 		margin-bottom: 1rem;
 	}
 
-	// ul li:last-child span {
-	// 	display: none;
-	// }
-
 	 .skill {
-		border-radius: 22px;
 		font-weight: bold; 
 
 		span {
@@ -141,7 +148,7 @@ a, p, button {
 	}
 
 	.skill-item {
-		font-size: 14px;
+		// font-size: 14px;
 		display: inline;
 	}
 
@@ -150,30 +157,28 @@ a, p, button {
 	}
 
 	.button-group .demo {
-		padding: 5px 10px;
-		background: white;
+		padding: 5px 20px;
+		background: #f96167;
 		border: 1px solid #f96167;
-		border-radius: 5px;
-		color: #f96167;
-		transition: .3s background;
-		transition: .3s color;
+		color: white;
+		transition: .5s background;
 
 		&:hover {
-			background: #f96167;
-			color: white;
+			background: #b1393d;
 		}
 	}
 
 	.bio {
 		text-align: left;
 		text-align: left;
-		background: white;
 		padding: 37px 0px;
-		border-radius: 10px;
 
 		.bio-skills {
+			margin: 2rem 0;
+
 			li {
 				display: block;
+				color: white;
 			}
 		}
 
@@ -184,15 +189,23 @@ a, p, button {
 	}
 }
 
+footer {
+	img {
+		height: 20px;
+		width: auto;
+		margin-right: 5px;
+	}
+}
+
 
 @media only screen and (min-width: 800px) {
 	body {
 		text-align: initial;
 	}
 
-	a, p, button {
-		font-size: 17px;
-	}
+	// a, p, button {
+	// 	font-size: 17px;
+	// }
 	.container {
 		padding: 0 55px;
 		height: 100vh;
@@ -222,9 +235,8 @@ a, p, button {
 
 		.project-detail {
 			margin-left: 2rem;
-			background: white;
+			// background: white;
 			padding: 30px;
-			border-radius: 10px;
 			
 		}
 	}
