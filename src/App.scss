@@ -1,32 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300&display=swap');
  
+$main: #535353;
+$red: #f96167;
+
  body {
 	text-align: center;
+	color: $main;
 	margin: 0;
-	background: black;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 }
 
 h1,h2,h3,h4,h5,h6,p, a {
   padding: 0;
   margin: 0;
-//   
-}
-
-h1,h2,h3,h4,h5,h6 {
-	color: #f96167;
-}
-
-p {
-	color: white;
+  font-weight: 300;
 }
 
 a {
-	color: #999;
+	color: $main;
 	transition: 0.5s color;
 
 	&:hover {
-		color: white;	
+		color: $red;	
 	}
 }
 
@@ -34,8 +30,9 @@ button {
 	background: none;
 	border: none;
 	outline: none;
-	color: white;
+	color: $main;
 	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
 }
 
 ul {
@@ -45,17 +42,15 @@ ul {
 ul li {
   display: inline-block;
   list-style: none;
-  margin-right: 10px;
+  margin-right: 5px;
   padding: 0;
 }
 
 a, p, button {
-	// font-size: 14px;
 	text-decoration: none;
 }
 
 .fa {
-  color: #f96167;
   font-size: 16px;
   transition: 0.5s color;
 
@@ -65,7 +60,7 @@ a, p, button {
 }
 
 .highlight {
-	color: #f96167;
+	color: $red;
 }
 
 .container {  
@@ -97,22 +92,11 @@ a, p, button {
 				cursor: pointer;
 				padding: 0;
 				transition: 0.5s color;
-				&.active {
-					color: #f96167;
-				}
 
 				&:hover {
-					color: #f96167;
+					color: $red;
 				}
 			}
-
-		}
-	}
-	
-	.nav-bio {
-
-		p {
-			color: #f96167;			
 		}
 	}
 }
@@ -140,15 +124,13 @@ a, p, button {
 	}
 
 	 .skill {
-		font-weight: bold; 
-
 		span {
-			color: #f96167;
+			font-size: 13px;
 		}
 	}
 
 	.skill-item {
-		// font-size: 14px;
+		font-size: 13px;
 		display: inline;
 	}
 
@@ -158,8 +140,7 @@ a, p, button {
 
 	.button-group .demo {
 		padding: 5px 20px;
-		background: #f96167;
-		border: 1px solid #f96167;
+		background: $red;
 		color: white;
 		transition: .5s background;
 
@@ -178,7 +159,6 @@ a, p, button {
 
 			li {
 				display: block;
-				color: white;
 			}
 		}
 
@@ -203,9 +183,6 @@ footer {
 		text-align: initial;
 	}
 
-	// a, p, button {
-	// 	font-size: 17px;
-	// }
 	.container {
 		padding: 0 55px;
 		height: 100vh;
@@ -235,14 +212,12 @@ footer {
 
 		.project-detail {
 			margin-left: 2rem;
-			// background: white;
 			padding: 30px;
 			
 		}
 	}
 
 	.projects-nav {
-		
 		ul {
 			display: flex;
 		}

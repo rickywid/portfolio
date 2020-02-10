@@ -19,7 +19,7 @@ class App extends Component {
   renderSocialIcons = social => (
     <li>
       <a href={social.icon !== 'fa-envelope' ? social.link : 'mailto:rickywid@hotmail.com'} className="profile__social-link" rel="noopener noreferrer" target="_blank">
-        <i className={`fa ${social.icon}`} aria-hidden="true" />
+        <i className={`fa ${social.icon} highlight`} aria-hidden="true" />
       </a>
     </li>
   )
@@ -31,12 +31,12 @@ class App extends Component {
       <div className={`project-name ${selectedProject !== index ? 'hide' : ''}`}>
         <img src={project.img} alt={project.name} />
         <div className="project-detail">
-          <h3>{project.name}</h3>
+          <h3 className="highlight">{project.name}</h3>
           <ul>
             {project.skills.map(skill => (
               <li className="skill">
                 <p className="skill-item">{skill}</p>
-                <span> / </span>
+                <span className="highlight"> /</span>
               </li>
             ))
             }
@@ -46,7 +46,7 @@ class App extends Component {
           </p>
           <div className="button-group">
             <a href={project.links.source} className="source" rel="noopener noreferrer" target="_blank">View Source</a>
-            <a href={project.links.demo} className="demo" rel="noopener noreferrer" target="_blank">Website</a>
+            <a href={project.links.demo} className="demo highlight" rel="noopener noreferrer" target="_blank">Website</a>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@ class App extends Component {
         <section className="profile animated bounceInDown">
           <div className="profile-info">
             <div className="profile-details">
-              <h2 className="profile-name">Ricky JW </h2>
+              <h2 className="profile-name highlight">Ricky JW </h2>
               <p>rickywid@hotmail.com</p>
               <p className="profile-title">Front End Developer</p>
             </div>
@@ -73,8 +73,8 @@ class App extends Component {
         </section>
         <section className="projects-nav animated slideInLeft">
           <ul>
-            {data.map((project, index) => <li><button type="button" className={`${selectedProject === index ? 'active' : ''}`} onKeyDown={this.selectProject.bind(this, index)} onClick={this.selectProject.bind(this, index)}>{project.name}</button></li>)}
-            <li><button type="button" className={`nav-bio ${selectedProject === data.length + 1 ? 'active' : ''}`} onClick={this.selectProject.bind(this, data.length + 1)}><p>ABOUT</p></button></li>
+            {data.map((project, index) => <li><button type="button" className={`${selectedProject === index ? 'highlight' : ''}`} onKeyDown={this.selectProject.bind(this, index)} onClick={this.selectProject.bind(this, index)}>{project.name}</button></li>)}
+            <li><button type="button" className={`nav-bio ${selectedProject === data.length + 1 ? 'highlight' : ''}`} onClick={this.selectProject.bind(this, data.length + 1)}><p className='highlight'>ABOUT</p></button></li>
           </ul>
         </section>
         <section className="project animated bounceInUp">
@@ -92,7 +92,7 @@ class App extends Component {
                   <span className="highlight"> JavaScript </span>
                   frameworks such as
                   <span className="highlight"> React</span>
-                  . As a developer I am continuously learning, building and experimenting with different tools and technologies.
+                  . As a developer I am continuously learning, building and experimenting with different tools and technologies. During my days off, you can catch me cycling and exploring the city.
                 </p>
                 <ul className="bio-skills">
                   <li>
