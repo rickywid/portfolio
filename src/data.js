@@ -9,6 +9,16 @@ export const data = [
       demo: 'https://bookstax.herokuapp.com/'
     }
   },
+  {
+	name: 'DASH',
+	skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'Reddit API'],
+	description: 'I created a web app where users can see all of their favourite subreddits on a single page. I wanted to save myself a little bit of time by not having to navigate between individual subreddit pages all the time. I added features where users can add, edit, remove subreddits from their saved list. Users can identify if a post is a video or image type and view related comments linked directly to Reddit\'s website.',
+	img: 'https://i.imgur.com/WsWJQVg.jpg',
+	links: {
+		source: 'https://github.com/rickywid/dash',
+		demo: 'https://rickywid.github.io/dash/'
+	}
+	},
 	{
 		name: 'FOUNDIT',
 		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'Heroku', 'Postgres', 'CircleCI'],
@@ -27,16 +37,6 @@ export const data = [
 		links: {
 			source: 'https://github.com/rickywid/weather-v2',
 			demo: 'https://rickywid.github.io/weather-v2/'
-		}
-	},
-	{
-		name: 'DASH',
-		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'Reddit API'],
-		description: 'I created a web app where users can see all of their favourite subreddits on a single page. I wanted to save myself a little bit of time by not having to navigate between individual subreddit pages all the time. I added features where users can add, edit, remove subreddits from their saved list. Users can identify if a post is a video or image type and view related comments linked directly to Reddit\'s website.',
-		img: 'https://i.imgur.com/WsWJQVg.jpg',
-		links: {
-			source: 'https://github.com/rickywid/dash',
-			demo: 'https://rickywid.github.io/dash/'
 		}
 	},
 	{
