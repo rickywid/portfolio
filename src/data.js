@@ -1,5 +1,15 @@
 export const data = [
   {
+    name: 'CODECONCEPT',
+    skills: ['React', 'NodeJS', 'Express', 'Heroku', 'Postgres', 'CircleCI', 'PassportJS'],
+    description: 'A full stack application built using React, NodeJS, PostgreSQL and Heroku and CircleCI. CodeConcept allows users to add their own personal project and also discover projects built by the dev community.',
+    img: 'https://i.imgur.com/nTjrY0e.png',
+    links: {
+      source: 'https://github.com/rickywid/projectx',
+      demo: 'https://beta.codeconcept.io/'
+    }
+  },
+  {
     name: 'BOOKSTAX',
     skills: ['Styled-Components', 'React-Redux', 'NodeJS', 'Express', 'Heroku', 'Postgres', 'CircleCI', 'PassportJS'],
     description: 'This is a full stack application where I used React on the front end and Nodejs, Postgres and Heroku on the back end. BookStax allows readers to keep track of the their books by managing their list with a drag and drop UI. Users can view, comment and like other users profiles. Users can login through email or social login via Google or Facebook.',
