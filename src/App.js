@@ -45,7 +45,7 @@ class App extends Component {
             {project.description}
           </p>
           <div className="button-group">
-            <a href={project.links.source} className="source" rel="noopener noreferrer" target="_blank">View Source</a>
+            {project.name !== 'CODECONCEPT' ? <a href={project.links.source} className="source" rel="noopener noreferrer" target="_blank">View Source</a> : <></>}
             <a href={project.links.demo} className="demo highlight" rel="noopener noreferrer" target="_blank">Website</a>
           </div>
         </div>
