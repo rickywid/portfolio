@@ -6,7 +6,7 @@ export const data = [
     img: 'https://i.imgur.com/nTjrY0e.png',
     links: {
       source: 'https://github.com/rickywid/projectx',
-      demo: 'https://beta.codeconcept.io/'
+      demo: 'https://codeconcept.io/'
     }
   },
   {
