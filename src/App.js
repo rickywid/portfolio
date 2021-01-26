@@ -63,7 +63,7 @@ class App extends Component {
           <div className="profile-info">
             <div className="profile-details">
               <h2 className="profile-name highlight">Ricky JW </h2>
-              <p>rickywid@hotmail.com</p>
+              <p>rickyw08@gmail.com</p>
               <p className="profile-title">Front End Developer</p>
             </div>
             <ul className="profile-social">
