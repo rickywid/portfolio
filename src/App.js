@@ -64,7 +64,7 @@ class App extends Component {
             <div className="profile-details">
               <h2 className="profile-name highlight">Ricky JW </h2>
               <p>rickyw08@gmail.com</p>
-              <p className="profile-title">Front End Developer</p>
+              <p className="profile-title">Software Developer</p>
             </div>
             <ul className="profile-social">
               {socialLink.map(this.renderSocialIcons)}
