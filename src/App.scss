@@ -177,6 +177,14 @@ footer {
 	}
 }
 
+.bio-inner {
+	img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+}
+
 
 @media only screen and (min-width: 800px) {
 	body {
@@ -222,4 +230,12 @@ footer {
 			display: flex;
 		}
 	}	
+
+	.bio-inner {
+		display: flex;
+		
+		img {
+			margin-right: 30px;
+		}
+	}
 }

@@ -81,8 +81,11 @@ class App extends Component {
           {selectedProject === data.length + 1
             ? (
               <div className="bio">
-                <p>
-                  I am a
+                <div className="bio-inner">
+                  <img src="https://res.cloudinary.com/dzeqj2xv1/image/upload/v1611890124/profile.jpg" alt="" />
+                  <div>
+                    <p>
+                      I am a
                   <span className="highlight"> Web Developer </span>
                   with
                   <span className="highlight"> 3 years </span>
@@ -94,40 +97,42 @@ class App extends Component {
                   <span className="highlight"> React</span>
                   . As a developer I am continuously learning, building and experimenting with different tools and technologies. During my days off, you can catch me cycling and exploring the city.
                 </p>
-                <ul className="bio-skills">
-                  <li>
-                    <span className="highlight">Languages: </span>
+                    <ul className="bio-skills">
+                      <li>
+                        <span className="highlight">Languages: </span>
                      HTML, CSS, JavaScript/ES6, Python
                   </li>
-                  <li>
-                    <span className="highlight">Frameworks: </span>
+                      <li>
+                        <span className="highlight">Frameworks: </span>
                     React, Angular, Vue, Node/Express, Jquery, MVC
                   </li>
-                  <li>
-                    <span className="highlight">Databases: </span>
+                      <li>
+                        <span className="highlight">Databases: </span>
                     Postgres, MongoDB
                   </li>
-                  <li>
-                    <span className="highlight">Deployment: </span>
+                      <li>
+                        <span className="highlight">Deployment: </span>
                     CircleCI, Heroku, Docker
                   </li>
-                  <li>
-                    <span className="highlight">Source Control: </span>
+                      <li>
+                        <span className="highlight">Source Control: </span>
                     Git/Github
                   </li>
-                  <li>
-                    <span className="highlight">Test Automation: </span>
+                      <li>
+                        <span className="highlight">Test Automation: </span>
                     Selenium, Jest, React-Testing-Library
                   </li>
-                  <li>
-                    <span className="highlight">Operating Systems: </span>
+                      <li>
+                        <span className="highlight">Operating Systems: </span>
                     Linux, Windows
                   </li>
-                </ul>
-                <p>
-                  If you would like to get in touch, you can contact me via email at
+                    </ul>
+                    <p>
+                      If you would like to get in touch, you can contact me via email at
                   <span className="highlight"> rickywid@hotmail.com</span>
-                </p>
+                    </p>
+                  </div>
+                </div>
               </div>
             )
             : data.map(this.renderProjects)
