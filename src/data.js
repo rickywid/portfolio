@@ -3,7 +3,7 @@ export const data = [
     name: 'CODECONCEPT',
     skills: ['React', 'NodeJS', 'Express', 'Heroku', 'Postgres', 'CircleCI', 'PassportJS'],
     description: 'A full stack application built using React, NodeJS, PostgreSQL and Heroku and CircleCI. CodeConcept allows users to add their own personal project and also discover projects built by the dev community.',
-    img: 'https://i.imgur.com/nTjrY0e.png',
+    img: 'https://i.imgur.com/16mTlfw.jpg',
     links: {
       source: 'https://github.com/rickywid/projectx',
       demo: 'https://codeconcept.io/'
