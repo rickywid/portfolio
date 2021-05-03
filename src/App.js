@@ -36,7 +36,6 @@ class App extends Component {
             {project.skills.map(skill => (
               <li className="skill">
                 <p className="skill-item">{skill}</p>
-                <span className="highlight"> /</span>
               </li>
             ))
             }
@@ -86,25 +85,26 @@ class App extends Component {
                   <div>
                     <p>
                       I am a
-                  <span className="highlight"> Web Developer </span>
+                  <span className="highlight"> Software Developer </span>
                   with
                   <span className="highlight"> 3 years </span>
-                  of professional experience focusing on
-                  <span className="highlight"> Front End Development</span>
-                  . My main responsibilities as a Front End Developer involves translating mockup designs, creating responsive layouts and building single page applications using
-                  <span className="highlight"> JavaScript </span>
-                  frameworks such as
-                  <span className="highlight"> React</span>
-                  . As a developer I am continuously learning, building and experimenting with different tools and technologies. During my days off, you can catch me cycling and exploring the city.
-                </p>
+                  of professional experience primarily focusing on
+                  <span className="highlight"> Web Development</span>.
+                  </p>
+                    <p>
+                      Since I began self teaching myself programming, I've experimented with multiple languages, frameworks, tools and libraries and I still feel I haven't even scratched the surface. I started off learning Front End Development but as I become more comfortable I started learning more about Back End Development which then lead me to learn about databases and building REST API's, security, deployment and more.
+                  </p>
+                    <p>
+                      During my off days, you can find me cycling around the city or when the weather is not permitting, I'll be catching up on some Netflix. 
+                  </p>
                     <ul className="bio-skills">
                       <li>
                         <span className="highlight">Languages: </span>
-                     HTML, CSS, JavaScript/ES6, Python
+                     HTML, CSS, JavaScript/ES6, Python, Java
                   </li>
                       <li>
                         <span className="highlight">Frameworks: </span>
-                    React, Angular, Vue, Node/Express, Jquery, MVC
+                    React, Angular, Vue, Node/Express, Spring Boot, MVC
                   </li>
                       <li>
                         <span className="highlight">Databases: </span>

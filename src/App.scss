@@ -43,6 +43,7 @@ ul li {
   display: inline-block;
   list-style: none;
   margin-right: 5px;
+  margin-bottom: 3px;
   padding: 0;
 }
 
@@ -61,6 +62,7 @@ a, p, button {
 
 .highlight {
 	color: $red;
+	font-weight: bold;
 }
 
 .container {  
@@ -130,8 +132,15 @@ a, p, button {
 	}
 
 	.skill-item {
-		font-size: 13px;
+		font-size: 10px;
 		display: inline;
+		background: #f96167;
+		color: white;
+		font-weight: bold;
+		padding: 2px 6px;
+		border: 1px solid red;
+		text-transform: uppercase;
+		border-radius: 3px;
 	}
 
 	.button-group a {

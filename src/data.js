@@ -10,29 +10,19 @@ export const data = [
     }
   },
   {
-    name: 'BOOKSTAX',
-    skills: ['Styled-Components', 'React-Redux', 'NodeJS', 'Express', 'Heroku', 'Postgres', 'CircleCI', 'PassportJS'],
-    description: 'This is a full stack application where I used React on the front end and Nodejs, Postgres and Heroku on the back end. BookStax allows readers to keep track of the their books by managing their list with a drag and drop UI. Users can view, comment and like other users profiles. Users can login through email or social login via Google or Facebook.',
-    img: 'https://i.imgur.com/SXVryK7.png',
-    links: {
-      source: 'https://github.com/rickywid/bookstax',
-      demo: 'https://bookstax.herokuapp.com/'
-    }
-  },
-  {
-	name: 'DASH',
+	name: 'REDDITU',
 	skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'Reddit API'],
-	description: 'I created a web app where users can see all of their favourite subreddits on a single page. I wanted to save myself a little bit of time by not having to navigate between individual subreddit pages all the time. I added features where users can add, edit, remove subreddits from their saved list. Users can identify if a post is a video or image type and view related comments linked directly to Reddit\'s website.',
-	img: 'https://i.imgur.com/feBGxPN.jpg',
+	description: 'A web app based on the Reddit API where users can add and customize all of their favourite subreddits. The web application is intended to save some time by not having to navigate between individual subreddit pages but instead having everything in one place. Users can customize their list and categorize their subreddits to keep everything organized and easily acccessible.',
+	img: 'https://imgur.com/4LLAeRN.jpeg',
 	links: {
 		source: 'https://github.com/rickywid/dash',
-		demo: 'https://rickywid.github.io/dash/'
+		demo: 'https://redditu.herokuapp.com/'
 	}
 	},
 	{
 		name: 'FOUNDIT',
 		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'Heroku', 'Postgres', 'CircleCI'],
-		description: 'This is a full stack application where I used React on the front end and Nodejs, Postgres and Heroku on the back end. FoundIT is a website where users can visit to post lost or found items. The purpose of FoundIt is to create an online lost & found where users can come to find any lost possessions. While building this project I also gained knowledge on how to automate deployment using CircleCI.',
+		description: 'A full stack application where users can visit to post lost or found items. The purpose of FoundIt is to create an online listings where users can come to find their lost possessions. While building this project I also knowledge on how to automate deployment using CircleCI while furthering my knowledge on both the front end and back end.',
 		img: 'https://i.imgur.com/MQQmUo8.jpg',
 		links: {
 			source: 'https://github.com/projectunic0rn/foundit-ui',
@@ -41,8 +31,8 @@ export const data = [
 	},
 	{
 		name: 'WEATHER',
-		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'OpenWeatherMap API'],
-		description: 'I created a weather application where users can search for a location and receive the weather foreacast. My objective for this project was to improve my UI skills by being able to implement a clean simple layout to display information. For this project I tried to use various methods for visualizing the data by combining icons, charts and a map.',
+		skills: ['HTML', 'SCSS', 'JavaScript', 'React', 'OpenWeatherMap API', 'Google Maps API'],
+		description: 'A weather application where users can search a city\'s location and receive the weather foreacast. Users have the ability to save cities, toggle between Celcius and Farenheit and displaying the city\'s location on Google Maps.',
 		img: 'https://i.imgur.com/P5dozff.jpg',
 		links: {
 			source: 'https://github.com/rickywid/weather-v2',
@@ -52,13 +42,23 @@ export const data = [
 	{
 		name: 'HANGMAN',
 		skills: ['HTML', 'CSS', 'JavaScript'],
-		description: 'I created this web game to help improve my JavaScript skills. I used this project as a way for me to learn more about JavaScript fundamentals including functions, variable scope, array and object methods and more. I also wanted to improve how to write more organized code by moving reusable code into functions and writing meaningful variable names.',
+		description: 'A recreation of the popular game Hangman using pure HTML, CSS and JavaScript. The purpose of this project was to challenge myself to try to build something without the use of any external libraries or frameworks.',
 		img: 'https://i.imgur.com/908JzFt.jpg',
 		links: {
 			source: 'https://github.com/rickywid/hangman_js/tree/gh-pages',
 			demo: 'https://rickywid.github.io/hangman_js/'
 		}
-	}		
+	},
+	{
+		name: 'BOOKSTAX',
+		skills: ['Styled-Components', 'React-Redux', 'Node', 'Express', 'Heroku', 'Postgres', 'CircleCI', 'PassportJS'],
+		description: 'This is a full stack application where I used React on the front end and Nodejs, Postgres and Heroku on the back end. BookStax allows readers to keep track of the their books by managing their list with a drag and drop UI. Users can view, comment and like other users profiles. Users can login through email or social login via Google or Facebook.',
+		img: 'https://i.imgur.com/SXVryK7.png',
+		links: {
+		  source: 'https://github.com/rickywid/bookstax',
+		  demo: 'https://bookstax.herokuapp.com/'
+		}
+	  }
 ]
 
 export const socialLink = [
