@@ -1,8 +1,8 @@
 export const data = [
   {
     name: 'CODECONCEPT',
-    skills: ['React', 'NodeJS', 'Express', 'Heroku', 'Postgres', 'CircleCI', 'PassportJS'],
-    description: 'A full stack application built using React, NodeJS, PostgreSQL and Heroku and CircleCI. CodeConcept allows users to add their own personal project and also discover projects built by the dev community.',
+    skills: ['NextJS', 'Heroku', 'Postgres', 'Prisma'],
+    description: 'A full stack application that allows users to upload their personal projects and also discover projects built by the dev community. The site was built using NextJS, Prisma, Postgres and deployed on Heroku.',
     img: 'https://i.imgur.com/16mTlfw.jpg',
     links: {
       source: 'https://github.com/rickywid/projectx',
@@ -15,7 +15,7 @@ export const data = [
 	description: 'A web app based on the Reddit API where users can add and customize all of their favourite subreddits. The web application is intended to save some time by not having to navigate between individual subreddit pages but instead having everything in one place. Users can customize their list and categorize their subreddits to keep everything organized and easily acccessible.',
 	img: 'https://imgur.com/4LLAeRN.jpeg',
 	links: {
-		source: 'https://github.com/rickywid/dash',
+		source: 'https://github.com/rickywid/reddit-v3',
 		demo: 'https://redditu.herokuapp.com/'
 	}
 	},
