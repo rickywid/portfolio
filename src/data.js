@@ -1,14 +1,14 @@
 export const data = [
-	{
-		name: 'DEV JAM',
-		skills: ['NEXTJS', 'SUPABASE', 'POSTGRES'],
-		description: 'A website where users can practice their software develoment skills by building weekly projects. After each project, users can then vote for their favourite project and compete for the top spot in the leaderboard.',
-		img: ['https://i.imgur.com/ckiQeDx.jpg', 'https://i.imgur.com/bVQmQgq.jpg'],
-		links: {
-			source: '',
-			demo: 'https://devjam.org/'
-		}
-	},
+	// {
+	// 	name: 'DEV JAM',
+	// 	skills: ['NEXTJS', 'SUPABASE', 'POSTGRES'],
+	// 	description: 'A website where users can practice their software develoment skills by building weekly projects. After each project, users can then vote for their favourite project and compete for the top spot in the leaderboard.',
+	// 	img: ['https://i.imgur.com/ckiQeDx.jpg', 'https://i.imgur.com/bVQmQgq.jpg'],
+	// 	links: {
+	// 		source: '',
+	// 		demo: 'https://devjam.org/'
+	// 	}
+	// },
 	{
 		name: 'KEYBOARD WARRIOR',
 		skills: ['React', 'TypeScript', 'Framer Motion'],
@@ -29,16 +29,16 @@ export const data = [
 			demo: 'https://rickywid.github.io/card-memory-game/'
 		}
 	},
-	{
-		name: 'WALLSTREET',
-		skills: ['React', 'React-DnD', 'Polygon API', 'Gnews API'],
-		description: "A game where the user must rearrange the list of company's stock price from highest to lowest. Stock price data is provided by Polygon.io's API and headline ticker data is from Gnews API. Polygon's free tier plan allows up to 5 API calls/minute.",
-		img: ['https://i.imgur.com/K2iaikW.jpg', 'https://i.imgur.com/KEnh301.jpg'],
-		links: {
-			source: 'https://github.com/rickywid/weather-v2',
-			demo: 'https://rickywid.github.io/wallstreet/'
-		}
-	},
+	// {
+	// 	name: 'WALLSTREET',
+	// 	skills: ['React', 'React-DnD', 'Polygon API', 'Gnews API'],
+	// 	description: "A game where the user must rearrange the list of company's stock price from highest to lowest. Stock price data is provided by Polygon.io's API and headline ticker data is from Gnews API. Polygon's free tier plan allows up to 5 API calls/minute.",
+	// 	img: ['https://i.imgur.com/K2iaikW.jpg', 'https://i.imgur.com/KEnh301.jpg'],
+	// 	links: {
+	// 		source: 'https://github.com/rickywid/weather-v2',
+	// 		demo: 'https://rickywid.github.io/wallstreet/'
+	// 	}
+	// },
 	{
 		name: 'XE CONVERTER',
 		skills: ['React', 'Chakra UI', 'Exchangerate API'],
